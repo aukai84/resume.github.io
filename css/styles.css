@@ -102,6 +102,9 @@ a:hover {
         border: none;
         padding: 0;
     }
+    #left-column {
+        padding-left: 3%;
+    }
     #profile-container {
         border: none;
     }
