@@ -1,7 +1,7 @@
 body {
     padding: 5%;
     background-color: #ccc9b7;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #header {
@@ -136,15 +136,16 @@ a:hover {
     }
     #profile-container {
         border: none;
+        padding-right: 3%;
     }
     #development-container {
         border: none;
     }
     .stack {
-        padding-right: 6%;
+        padding-right: 3%;
     }
     .text-paragraphs {
-        padding-right: 6%;
+        padding-right: 3%;
     }
 }
 
