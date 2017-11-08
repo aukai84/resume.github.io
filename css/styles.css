@@ -139,7 +139,9 @@ a:hover {
     }
     #development-container {
         border: none;
-        padding-right: 3%;
+    }
+    .stack {
+        padding-right: 6%;
     }
     .text-paragraphs {
         padding-right: 6%;
