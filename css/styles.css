@@ -1,7 +1,7 @@
 body {
     padding: 5%;
     background-color: #ccc9b7;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #header {
@@ -139,6 +139,7 @@ a:hover {
     }
     #development-container {
         border: none;
+        padding-right: 3%;
     }
     .text-paragraphs {
         padding-right: 6%;
