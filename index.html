@@ -37,32 +37,60 @@
 
             <div id="content-body" class="row">
                 <div id="left-column" class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                    <div id="profile-container">
+                    <!--<div id="profile-container">
                         <h3>PROFESSIONAL PROFILE</h3>
                         <p class="text-paragraphs">Newly graduated full stack web developer looking to make a career change into the tech industry.  Seeking an opportunity to work on innovative web application development and leverage the skills I have gained to make meaningful contributions to any team or project.</p>
-                    </div>
+                    </div>-->
                     <div id="development-container">
                         <h3 id="development-experience">DEVELOPMENT EXPERIENCE</h3>
-                        <div class="top-spacing">
-                            <h4 id="akahele-io"><b>Akahele.io</b></h4>
-                            <h5><i>React, D3, ExpressJS, PostgreSQL, Webpack, Git</i></h5> 
-                            <h6 class="dates">May 2017</h6>
-                            <h5 id="akahele-link"><a href="https://github.com/aukai84/akahele">github/aukai84/akahele</a></h5>
+                        <div id="akahele-container">
+                            <div class="top-spacing">
+                                <h4 id="akahele-io"><b>Akahele.io</b></h4>
+                                <h5><i>React, D3, ExpressJS, PostgreSQL, Webpack, Git</i></h5> 
+                                <h6 class="dates">May 2017</h6>
+                                <h5 id="akahele-link"><a href="https://github.com/aukai84/akahele">github/aukai84/akahele</a></h5>
+                            </div>
+                            <p class="text-paragraphs">Akahele.io is a single page web application that visually represents public crime statistics to the user.  The user is able to see trends in National, State, and City Crimes, both past and present, through charts and graphs.  Akahele.io also represents specific crime incidents plotted on a map by geolocation(Oahu only) to show high risk areas.  Server side contributions include data scraping, creation of database/models, and API architecture.  Front end contributions include web page design using React, connecting server side application to the front end using API calls, mapping data to react components, and creating visual representations of data using D3</p>
                         </div>
-                        <p class="text-paragraphs">Akahele.io is a single page web application that visually represents public crime statistics to the user.  The user is able to see trends in National, State, and City Crimes, both past and present, through charts and graphs.  Akahele.io also represents specific crime incidents plotted on a map by geolocation(Oahu only) to show high risk areas.  Server side contributions include data scraping, creation of database/models, and API architecture.  Front end contributions include web page design using React, connecting server side application to the front end using API calls, mapping data to react components, and creating visual representations of data using D3</p>
-                        <h4 id="adware-waves"><b>Global Game Jam Hackathon Project Adware-waves</b></h4>
-                        <h5><i>ExpressJS, Phaser.io, Git</i></h5>
-                        <h6 class="dates">January 2017</h6>
-                        <h5 id="adware-link"><a href="https://github.com/DEbinger/adware-waves">github.com/DEbinger/adware-waves</a></h5>
-                        <p class="text-paragraphs">Adware-waves is a web based video game created during Global Game Jam Honolulu.  Using the required "waves" theme, our team created a game which spawns "Ads" at specific intervals.  The user must then type in terminal commands to destroy them!  Front end contributions include implementing Phaser.io's game environment to spawn and destroy ads.  Assisted in the visual process and flow of user interaction throughout play</p>
+                        <div id="adware-waves-container">
+                            <h4 id="adware-waves"><b>Global Game Jam Hackathon Project Adware-waves</b></h4>
+                            <h5><i>ExpressJS, Phaser.io, Git</i></h5>
+                            <h6 class="dates">January 2017</h6>
+                            <h5 id="adware-link"><a href="https://github.com/DEbinger/adware-waves">github.com/DEbinger/adware-waves</a></h5>
+                            <p class="text-paragraphs">Adware-waves is a web based video game created during Global Game Jam Honolulu.  Using the required "waves" theme, our team created a game which spawns "Ads" at specific intervals.  The user must then type in terminal commands to destroy them!  Front end contributions include implementing Phaser.io's game environment to spawn and destroy ads.  Assisted in the visual process and flow of user interaction throughout play</p>
+                        </div>
+                        <div id="visionair-container">
+                            <h4 id="visionair"><b>Visionair.com <i>*In Development*</i></b></h4>
+                            <h5><i>ExpressJS, NodeJS, PassportJS, JWT, Bcrypt, MongoDB, StripeJS, NextJS, ReactJS, Bootstrap, Git</i></h5>
+                            <h6 class="dates">June 2017 - Present</h6>
+                            <h5 id="visionair-link"><a href="https://github.com/aukai84/visionair">github.com/aukai84/visionair</a></h5>
+                            <p class=text-paragraphs">Visionair.com is an eCommerce platform that sells and displays photography pieces taken by our client.  The site is also a portfolio page that showcases recent work, as well as connects our client to his customers.  Users are able to browse items and make purchases using StripeJS and our proprietary cart system.  Our client as the administrator is able to perform an authenticated login and access his personal dashboard.  The dashboard is his own content management system where he can add, delete, or edit items for sale.  Responsibilities included building out a clean and light-weight front-end with authenticated routes.  Communicating with our own API server to manage and display our data.  Creating a beautiful and intuitive UI/UX to showcase our client's work</p>
+                        </div>
+                        <div id="art-of-bail-container">
+                            <h4 id="art-of-bail"><b>Art of Bail Hawaii <i>*In Development*</i></b></h4>
+                            <h5><i>ExpressJS, NodeJS, PassportJS, JWT, Bcrypt, MongoDB NextJS, ReactJS, Bootstrap, Git</i></h5>
+                            <h6 class="dates">August 2017 - Present</h6>
+                            <h5 id="art-of-bail-link"><a href="https://github.com/aukai84/art-of-bail">github.com/aukai84/art-of-bail</a></h5>
+                            <p class=text-paragraphs">The website for Art of Bail Hawaii was built to connect with and retain customers.  Users are able to obtain information about the business and if services are needed they have the option of requesting them through an online form.  Once submitted the form will automatically send a text and e-mail to the business notifying them of a possible bail.  The administrator is able to make an authenticated login and access their dashboard.  Bails in progress can be added, edited, or deleted from our database.  Once a bail is created, a unique ID is attached to it and all pertinent information is sent to the customer.  The customer can now search for their case through the website using their unique ID and obtain case information like court dates and billing.  Contributions to this project include designing the UI/UX, coding the front-end business logic to communicate with our API server, and implement the use of Token-based authentication on both the front and back end to communicate sensitive data</p>
+                        </div>
                     </div>
                     <div id="professional-container">
                         <h3 id="professional-experience">PROFESSIONAL EXPERIENCE</h3>
-                        <div id="insurance-container">
+                        <div id="freelance-container">
                             <div class="top-spacing">
-                                <h5 id="insurance-title"><b>Insurance Sales Associate, <i>2012 - Present</i></b></h5>
-                                <h5 class="work-location">State Farm Insurance, Kaneohe HI</h5>
+                                <h5 id="freelance-title"><b>Freelance Web Developer, <i>June 2017 - Present</i></b></h5>
+                                <h5 class="work-location">Kailua HI</h5>
+                                <ul class="text-paragraphs">
+                                    <li>Freelance web development building and deploying single page web applications</li>
+                                    <li>Front-end focus, implementing the latest frameworks i.e. ReactJS, Redux, NextJS, Bootstrap</li>
+                                    <li>Integrate with and consume API's</li>
+                                    <li>Utilize server-side and front-end authentication with Passport, Bcrypt, and JSON web tokens</li>
+                                </ul>
                             </div>
+                        </div>
+                        <div id="insurance-container">
+                            <h5 id="insurance-title"><b>Insurance Sales Associate, <i>February 2012 - Present</i></b></h5>
+                            <h5 class="work-location">State Farm Insurance, Kaneohe HI</h5>
                             <ul class="text-paragraphs">
                                 <li>Fully licensed in property, casualty, and commercial insurance</li>
                                 <li>Sales experience in a local agency, dealing with clients on a personal level</li>
@@ -71,7 +99,7 @@
                             </ul>
                         </div>
                         <div id="instructor-container">
-                            <h5 id="instructor-title"><b>Head Swim Instructor, <i>2006 - 2010</i></b></h5>
+                            <h5 id="instructor-title"><b>Head Swim Instructor, <i>May 2006 - May 2010</i></b></h5>
                             <h5 class="work-location">Leahi Swim School</h5>
                             <ul class="text-paragraphs">
                                 <li>Head swim instructor teaching classes in age groups ranging from 4rs - 18yrs old</li>
@@ -118,28 +146,28 @@
                             <div class="text-paragraphs">
                                 <h4><b>JavaScript Web Engineer</b></h4>
                                 <p>DevLeague</p>
-                                <p><i>2016 - 2017</i></p>
+                                <p><i>November 2016 - May 2017</i></p>
                             </div>
                         </div>
                         <div id="manoa-container" class="text-paragraphs">
                             <div class="text-paragraphs">
-                                <h4><b>Bachelor of Arts in Business Finance</b></h4>
+                                <h4><b>Bachelor of Business Administration in Business Finance</b></h4>
                                 <p>University of Hawaii at Manoa</p>
-                                <p><i>2012 - 2015</i></p>
+                                <p><i>September 2012 - May 2015</i></p>
                             </div>
                         </div>
                         <div id="kapiolani-container" class="text-paragraphs">
                             <div class="text-paragraphs">
                                 <h4><b>Liberal Arts Business Focus</b></h4>
                                 <p>Kapiolani Community College</p>
-                                <p><i>2009 - 2011</i></p>
+                                <p><i>January 2009 - January 2011</i></p>
                             </div>
                         </div>
                         <div id="pacific-container" class="text-paragraphs">
                             <div class="text-paragraphs">
                                 <h4><b>Computer Engineering Major</b></h4>
                                 <p>University of the Pacific</p>
-                                <p><i>2007 - 2008</i></p>
+                                <p><i>September 2007 - December 2008</i></p>
                             </div>
                         </div>
                     </div>
