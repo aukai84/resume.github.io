@@ -127,6 +127,9 @@ a:hover {
 }
 
 @media (max-width: 1000px) {
+    #content-body{
+        padding-right: 3%;
+    }
     #left-column {
         border: none;
         padding: 0;
