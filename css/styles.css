@@ -78,13 +78,16 @@ a:hover {
     padding-top: 3%;
 }
 
+#art-of-bail-container {
+	padding-top: 1%;
+}
+
 .text-paragraphs {
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
 .top-spacing {
-    padding-top: 1%;
 }
 
 #left-column {
