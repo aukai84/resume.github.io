@@ -67,15 +67,14 @@ a:hover {
     border-color: grey;
 }
 
-#development-container {
+#professional-container {
     border-bottom: solid;
     border-width: 2px;
     border-color: grey;
-    padding-top: 3%;
 }
 
-#professional-container {
-    padding-top: 3%;
+#development-container {
+    padding-top: 16px;
 }
 
 #rmt-container {
@@ -87,16 +86,18 @@ a:hover {
 }
 
 .text-paragraphs {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .top-spacing {
 }
 
 #left-column {
-    margin: 3%;
-    padding: 3%;
+    margin: 16px;
+    margin-right: 32px;
+    margin-bottom: 0px;
+    padding: 16px;
     padding-top: 0;
     border-right: solid;
     border-width: 2px;
@@ -105,9 +106,10 @@ a:hover {
 
 
 #right-column {
-    padding-top: 3%;
+    padding-top: 16px;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 32px;
 }
 
 .skill-item {
@@ -135,27 +137,27 @@ a:hover {
 
 @media (max-width: 1000px) {
     #content-body{
-        padding-right: 3%;
+        padding-right: 16px;
     }
     #left-column {
         border: none;
         padding: 0;
     }
     #right-column {
-        padding-left: 3%;
+        padding-left: 16px;
     }
     #profile-container {
         border: none;
-        padding-right: 3%;
+        padding-right: 16px;
     }
-    #development-container {
+    #professional-container {
         border: none;
     }
     .stack {
-        padding-right: 3%;
+        padding-right: 16px;
     }
     .text-paragraphs {
-        padding-right: 3%;
+        padding-right: 16px;
     }
 }
 
@@ -176,7 +178,7 @@ body {
 
 #left-header {
     display: flex;
-    padding: 6%;
+    padding: 32px;
 }
 
 h1 {
@@ -198,9 +200,9 @@ a:hover {
 }
 
 #right-header {
-    padding-bottom: 3%;
-    padding-left: 6%;
-    padding-top: 6%;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-top: 32px;
     color: grey;
 }
 
@@ -232,29 +234,29 @@ a:hover {
     border-color: grey;
 }
 
-#development-container {
+#professional-container {
     border-bottom: solid;
     border-width: 2px;
     border-color: grey;
-    padding-top: 3%;
+    padding-top: 16px;
 }
 
-#professional-container {
-    padding-top: 3%;
+#development-container {
+    padding-top: 16px;
 }
 
 .text-paragraphs {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .top-spacing {
-    padding-top: 1%;
+    padding-top: 16px;
 }
 
 #left-column {
-    margin: 3%;
-    padding: 3%;
+    margin: 16px;
+    padding: 16px;
     padding-top: 0;
     border-right: solid;
     border-width: 2px;
@@ -269,16 +271,16 @@ a:hover {
     #profile-container {
         border: none;
     }
-    #development-container {
+    #professional-container {
         border: none;
     }
     .text-paragraphs {
-        padding-right: 6%;
+        padding-right: 32px;
     }
 }
 
 #right-column {
-    padding-top: 3%;
+    padding-top: 16px;
     padding-left: 0;
     padding-right: 0;
 }
@@ -296,14 +298,14 @@ a:hover {
 
 .skill-list-container {
     display: flex;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .skill-list {
     list-style-type: none;
     padding-left: 0;
-    margin-right: 5%;
+    margin-right: 24px;
 }
 
 
