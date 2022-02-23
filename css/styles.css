@@ -12,7 +12,7 @@ body {
 
 #left-header {
     display: flex;
-    padding: 6%;
+    padding: 48px;
 }
 
 h1 {
@@ -34,8 +34,8 @@ a:hover {
 
 #right-header {
     padding-bottom: 3%;
-    padding-left: 6%;
-    padding-top: 6%;
+    padding-left: 48px;
+    padding-top: 48px;
     color: grey;
 }
 
